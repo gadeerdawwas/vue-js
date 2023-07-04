@@ -75,7 +75,8 @@
         <main class="py-4">
             @yield('content')
         </main>
-    <example-component></example-component>
+        {{--  <example-component></example-component>  --}}
+        <home></home>
     </div>
 </body>
 </html>

@@ -19,3 +19,10 @@
 
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="{{ asset('asset/images/favicon.png') }}">
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router@3/dist/vue-router.js"></script>
+    <!-- Scripts -->
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])

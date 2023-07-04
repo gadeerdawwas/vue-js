@@ -1,6 +1,6 @@
 <header id="header">
     <section class="container clearfix">
-        <div class="logo"><a href="index-2.html"><img alt="" src="images/logo.png"></a></div>
+        <div class="logo"><a href="index-2.html"><img alt="" src=""></a></div>
         <nav class="navigation">
             <ul>
                 <li class="current_page_item"><a href="index-2.html">Home</a>

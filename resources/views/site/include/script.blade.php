@@ -15,3 +15,5 @@
 <script src="{{ asset('asset/js/tags.js') }}"></script>
 <script src="{{ asset('asset/js/jquery.bxslider.min.js') }}"></script>
 <script src="{{ asset('asset/js/custom.js') }}"></script>
+<script src="{{ asset('js/app.js') }}" defer></script>
+

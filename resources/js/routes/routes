@@ -1,0 +1,23 @@
+import { createApp } from 'vue';
+import { createWebHistory, createRouter } from "vue-router";
+
+import PostDetails from '../components/PostDetails.vue';
+import Post from '../components/Posts.vue';
+
+const routes = [{
+        path: "/",
+        name: "Post",
+        component: Post,
+    },
+    {
+        path: '/post/:slug',
+        name: "PostDetails",
+        component: PostDetails,
+    },
+];
+const router = createRouter({
+    history: createWebHistory(),
+    routes,
+});
+
+export default router;
